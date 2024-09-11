@@ -76,7 +76,7 @@ app.post("/words", (req, res) => {
   const word = req.body;
   const newWordPair = `${Object.values(word).join(" ")}`;
 
-  fs.appendFileSync("./Dictionary.txt", newWordPair);
+  fs.appendFileSync("./Dictionary.txt", "\n" + newWordPair);
 
   //gets the new version of dictionary
   fillDictionary();

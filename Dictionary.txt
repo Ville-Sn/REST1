@@ -9,4 +9,3 @@ näyttö screen
 kuulokkeet headphones
 hiiri mouse
 näppäimistö keyboard
-ihminen human
